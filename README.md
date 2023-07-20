@@ -25,6 +25,11 @@
 4) Третий экран: Техническая информация об активном сертификате или заблокированном по дате действия.
 ```
 
+### Ручная установка
+* Создать папку `certificat.activation` в папке `/local/modules/` или `/bitrix/modules/`
+* Скопировать файлы модуля в папку `certificat.activation`
+* Установить модуль в CMS Bitrix `/bitrix/admin/partner_modules.php?lang=ru`
+
 ## Компонент для активации сертификата
 ```
 <? $APPLICATION->IncludeComponent('local.certificat:certificat.activation',".default",
